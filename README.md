@@ -57,6 +57,6 @@ Use the issue templates and attach `latest.log`. Every message from this mod sta
 
 ## Credits
 
-**[LinkedR](https://www.curseforge.com/members/linkedr/projects)**, creator of [LR's Dynamic Dungeon](https://www.curseforge.com/minecraft/mc-mods/lrs-dynamic-dungeon). This mod exists only because of their work; some patches replace methods with reworked versions of the original logic, so credit goes to them.
+**[LinkedR](https://www.curseforge.com/members/linkedr/projects)**, creator of [LR's Dynamic Dungeon](https://www.curseforge.com/minecraft/mc-mods/lrs-dynamic-dungeon). This mod exists only because of their work; some patches replace methods with reworked versions of the original logic, so credit goes to them. See [NOTICE.md](NOTICE.md).
 
 *This is an unofficial add-on and is not affiliated with or endorsed by the original author. Do not report any issue to them with this mod installed*
