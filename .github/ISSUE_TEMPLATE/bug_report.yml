@@ -1,0 +1,68 @@
+name: Bug report
+description: Something in lrdd_fix, or in the dungeon with lrdd_fix installed, does not work.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please check that the problem is not already fixed in the latest release.
+        If it also happens **without** lrdd_fix, report it to the original mod's author instead.
+  - type: input
+    id: version
+    attributes:
+      label: lrdd_fix version
+      placeholder: 1.0
+    validations:
+      required: true
+  - type: input
+    id: dungeon
+    attributes:
+      label: LR's Dynamic Dungeon version
+    validations:
+      required: true
+  - type: input
+    id: forge
+    attributes:
+      label: Minecraft and Forge version
+      placeholder: 1.20.1 / Forge 47.3.0
+    validations:
+      required: true
+  - type: dropdown
+    id: side
+    attributes:
+      label: Where did it happen?
+      options: [Singleplayer, Dedicated server, LAN / multiplayer host]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you see, and what did you expect instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Enter the dungeon with a Dungeon Pass
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: lrdd_fix config
+      description: Paste `config/lrdd_fix-common.toml` if you changed it.
+      render: toml
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: Attach `latest.log` (drag the file in), or paste the lines starting with `[lrdd_fix]` and any crash report.
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods or scripts that touch the dungeon
+      description: KubeJS scripts, datapacks, enemy pool or structure changes, other add-ons.

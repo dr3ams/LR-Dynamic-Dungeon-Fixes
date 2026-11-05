@@ -1,0 +1,17 @@
+name: Feature request
+description: Suggest a new option or behaviour.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What should it do?
+      description: If it should be configurable, suggest the option name and default.
+    validations:
+      required: true

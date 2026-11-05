@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Bug in LR's Dynamic Dungeon itself (not in this fix)
+    url: https://www.curseforge.com/minecraft/mc-mods/lrs-dynamic-dungeon
+    about: If it also happens without lrdd_fix installed, please report it to the original author.
