@@ -1,6 +1,7 @@
 name: Bug report
 description: Something in lrdd_fix, or in the dungeon with lrdd_fix installed, does not work.
-labels: [bug]
+title: "[Bug] "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
